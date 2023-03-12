@@ -71,7 +71,7 @@ function UserForm( {appDB} ) {
             <br/>
             <br/>
             <input type='password' placeholder='Password shhhh' onChange={inputPasswordChange} value={inputPassword} id='inputPassword' name='inputPassword'/>
-            {/* <br/>
+            <br/>
             <br/>
             <label>Gender:</label>
             <br/>
@@ -80,7 +80,7 @@ function UserForm( {appDB} ) {
             <input type='radio' onChange={radioGenderChange} value={radioGender} id='radioGenderFemale' name='radioGender'/>
             <label for='radioGender'>Female</label>
             <input type='radio' onChange={radioGenderChange} value={radioGender} id='radioGenderPNS' name='radioGender'/>
-            <label for='radioGender'>Prefer not to specify</label> */}
+            <label for='radioGender'>Prefer not to specify</label>
             <br/>
             <br/>
             <label>Likes (comma separated)</label>
